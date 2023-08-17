@@ -1,0 +1,121 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.belajar.projectuas"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/home/reepal/AndroidStudio/ProjectUAS/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->/home/reepal/AndroidStudio/ProjectUAS/app/src/main/AndroidManifest.xml
+10
+11    <application
+11-->/home/reepal/AndroidStudio/ProjectUAS/app/src/main/AndroidManifest.xml:5:5-50:19
+12        android:allowBackup="true"
+12-->/home/reepal/AndroidStudio/ProjectUAS/app/src/main/AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.8.0] /home/reepal/.gradle/caches/transforms-3/87a796fe63836d99a2198ac6a6284cb3/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+14        android:dataExtractionRules="@xml/data_extraction_rules"
+14-->/home/reepal/AndroidStudio/ProjectUAS/app/src/main/AndroidManifest.xml:7:9-65
+15        android:debuggable="true"
+16        android:fullBackupContent="@xml/backup_rules"
+16-->/home/reepal/AndroidStudio/ProjectUAS/app/src/main/AndroidManifest.xml:8:9-54
+17        android:icon="@mipmap/ic_launcher"
+17-->/home/reepal/AndroidStudio/ProjectUAS/app/src/main/AndroidManifest.xml:9:9-43
+18        android:label="@string/app_name"
+18-->/home/reepal/AndroidStudio/ProjectUAS/app/src/main/AndroidManifest.xml:10:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->/home/reepal/AndroidStudio/ProjectUAS/app/src/main/AndroidManifest.xml:11:9-54
+20        android:supportsRtl="true"
+20-->/home/reepal/AndroidStudio/ProjectUAS/app/src/main/AndroidManifest.xml:12:9-35
+21        android:theme="@style/Theme.ProjectUAS" >
+21-->/home/reepal/AndroidStudio/ProjectUAS/app/src/main/AndroidManifest.xml:13:9-48
+22        <activity
+22-->/home/reepal/AndroidStudio/ProjectUAS/app/src/main/AndroidManifest.xml:16:9-22:20
+23            android:name="com.belajar.projectuas.AboutPage"
+23-->/home/reepal/AndroidStudio/ProjectUAS/app/src/main/AndroidManifest.xml:17:13-38
+24            android:exported="false" >
+24-->/home/reepal/AndroidStudio/ProjectUAS/app/src/main/AndroidManifest.xml:18:13-37
+25            <meta-data
+25-->/home/reepal/AndroidStudio/ProjectUAS/app/src/main/AndroidManifest.xml:19:13-21:36
+26                android:name="android.app.lib_name"
+26-->/home/reepal/AndroidStudio/ProjectUAS/app/src/main/AndroidManifest.xml:20:17-52
+27                android:value="" />
+27-->/home/reepal/AndroidStudio/ProjectUAS/app/src/main/AndroidManifest.xml:21:17-33
+28        </activity>
+29        <activity
+29-->/home/reepal/AndroidStudio/ProjectUAS/app/src/main/AndroidManifest.xml:23:9-29:20
+30            android:name="com.belajar.projectuas.DetailProjekAdapter"
+30-->/home/reepal/AndroidStudio/ProjectUAS/app/src/main/AndroidManifest.xml:24:13-48
+31            android:exported="false" >
+31-->/home/reepal/AndroidStudio/ProjectUAS/app/src/main/AndroidManifest.xml:25:13-37
+32            <meta-data
+32-->/home/reepal/AndroidStudio/ProjectUAS/app/src/main/AndroidManifest.xml:19:13-21:36
+33                android:name="android.app.lib_name"
+33-->/home/reepal/AndroidStudio/ProjectUAS/app/src/main/AndroidManifest.xml:20:17-52
+34                android:value="" />
+34-->/home/reepal/AndroidStudio/ProjectUAS/app/src/main/AndroidManifest.xml:21:17-33
+35        </activity>
+36        <activity
+36-->/home/reepal/AndroidStudio/ProjectUAS/app/src/main/AndroidManifest.xml:30:9-36:20
+37            android:name="com.belajar.projectuas.MainActivity"
+37-->/home/reepal/AndroidStudio/ProjectUAS/app/src/main/AndroidManifest.xml:31:13-41
+38            android:exported="false" >
+38-->/home/reepal/AndroidStudio/ProjectUAS/app/src/main/AndroidManifest.xml:32:13-37
+39            <meta-data
+39-->/home/reepal/AndroidStudio/ProjectUAS/app/src/main/AndroidManifest.xml:19:13-21:36
+40                android:name="android.app.lib_name"
+40-->/home/reepal/AndroidStudio/ProjectUAS/app/src/main/AndroidManifest.xml:20:17-52
+41                android:value="" />
+41-->/home/reepal/AndroidStudio/ProjectUAS/app/src/main/AndroidManifest.xml:21:17-33
+42        </activity>
+43        <activity
+43-->/home/reepal/AndroidStudio/ProjectUAS/app/src/main/AndroidManifest.xml:37:9-49:20
+44            android:name="com.belajar.projectuas.SplashScreen"
+44-->/home/reepal/AndroidStudio/ProjectUAS/app/src/main/AndroidManifest.xml:38:13-41
+45            android:exported="true" >
+45-->/home/reepal/AndroidStudio/ProjectUAS/app/src/main/AndroidManifest.xml:39:13-36
+46            <intent-filter>
+46-->/home/reepal/AndroidStudio/ProjectUAS/app/src/main/AndroidManifest.xml:40:13-44:29
+47                <action android:name="android.intent.action.MAIN" />
+47-->/home/reepal/AndroidStudio/ProjectUAS/app/src/main/AndroidManifest.xml:41:17-69
+47-->/home/reepal/AndroidStudio/ProjectUAS/app/src/main/AndroidManifest.xml:41:25-66
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->/home/reepal/AndroidStudio/ProjectUAS/app/src/main/AndroidManifest.xml:43:17-77
+49-->/home/reepal/AndroidStudio/ProjectUAS/app/src/main/AndroidManifest.xml:43:27-74
+50            </intent-filter>
+51
+52            <meta-data
+52-->/home/reepal/AndroidStudio/ProjectUAS/app/src/main/AndroidManifest.xml:19:13-21:36
+53                android:name="android.app.lib_name"
+53-->/home/reepal/AndroidStudio/ProjectUAS/app/src/main/AndroidManifest.xml:20:17-52
+54                android:value="" />
+54-->/home/reepal/AndroidStudio/ProjectUAS/app/src/main/AndroidManifest.xml:21:17-33
+55        </activity>
+56
+57        <provider
+57-->[androidx.emoji2:emoji2:1.2.0] /home/reepal/.gradle/caches/transforms-3/c03fa7bc00a04a375204b573f0966d9f/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+58            android:name="androidx.startup.InitializationProvider"
+58-->[androidx.emoji2:emoji2:1.2.0] /home/reepal/.gradle/caches/transforms-3/c03fa7bc00a04a375204b573f0966d9f/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+59            android:authorities="com.belajar.projectuas.androidx-startup"
+59-->[androidx.emoji2:emoji2:1.2.0] /home/reepal/.gradle/caches/transforms-3/c03fa7bc00a04a375204b573f0966d9f/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+60            android:exported="false" >
+60-->[androidx.emoji2:emoji2:1.2.0] /home/reepal/.gradle/caches/transforms-3/c03fa7bc00a04a375204b573f0966d9f/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+61            <meta-data
+61-->[androidx.emoji2:emoji2:1.2.0] /home/reepal/.gradle/caches/transforms-3/c03fa7bc00a04a375204b573f0966d9f/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+62                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+62-->[androidx.emoji2:emoji2:1.2.0] /home/reepal/.gradle/caches/transforms-3/c03fa7bc00a04a375204b573f0966d9f/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+63                android:value="androidx.startup" />
+63-->[androidx.emoji2:emoji2:1.2.0] /home/reepal/.gradle/caches/transforms-3/c03fa7bc00a04a375204b573f0966d9f/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+64            <meta-data
+64-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/reepal/.gradle/caches/transforms-3/0ce9e5f033589fdf0ab757f82f7808ec/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+65                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+65-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/reepal/.gradle/caches/transforms-3/0ce9e5f033589fdf0ab757f82f7808ec/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+66                android:value="androidx.startup" />
+66-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/reepal/.gradle/caches/transforms-3/0ce9e5f033589fdf0ab757f82f7808ec/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+67        </provider>
+68    </application>
+69
+70</manifest>
