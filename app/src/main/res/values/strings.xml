@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Gramedia</string>
+    <string name="the_name">Nama Buku</string>
+    <string name="detail">Details</string>
+    <string name="desc">Desc</string>
+    <string name="list">List</string>
+    <string name="grid">Grid</string>
+    <string name="with_cardview">with CardView</string>
+    <string name="favorite">Favorite</string>
+    <string name="share">Share</string>
+    <string name="nama">Hayati</string>
+    <string name="link">Link: <a href="https://www.gramedia.com/">Gramedia</a></string>
+    <string name="judul">Nama</string>
+    <string name="ket">MANAJEMEN INFORMATIKA 2021</string>
+    <string name="email">hayati.kembang@mhs.rosma.ac.id</string>
+    <string name="about">About</string>
+</resources>
